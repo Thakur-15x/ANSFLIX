@@ -1,0 +1,51 @@
+.container {
+  justify-content: space-around;
+  overflow: hidden;
+  padding: 15px;
+  display: flex;
+  color: white;
+  background-color: rgb(15, 15, 15);
+}
+.tainer {
+    overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.con ul li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  margin: 0 0 7px -15px;
+}
+.con ul li {
+  list-style: none;
+  font-size: 0.8rem;
+}
+.con ul li img {
+  object-fit: contain;
+  width: 2vw;
+  margin-top: 2px;
+  border-radius: 20px;
+}
+h3 {
+  font-size: 1rem;
+  margin: 15px;
+}
+.tin pre {
+  padding: 4px;
+  display: flex;
+}
+.tin img {
+  width: 8vw;
+  object-fit: contain;
+}
+#img {
+  object-fit: contain;
+  margin-top: 15px;
+  margin-right: 25px;
+  background-color: white;
+  border-radius: 5px;
+}
+#foot {
+  padding: 6px;
+}
