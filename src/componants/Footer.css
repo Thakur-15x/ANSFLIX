@@ -7,7 +7,6 @@
   background-color: rgb(15, 15, 15);
 }
 .tainer {
-    overflow: hidden;
   padding-top: 50px;
   padding-bottom: 40px;
 }
@@ -24,16 +23,14 @@
 .con ul li img {
   object-fit: contain;
   width: 2vw;
-  margin-top: 2px;
-  border-radius: 20px;
+  margin-top: 2.5px;
 }
 h3 {
   font-size: 1rem;
   margin: 15px;
 }
-.tin pre {
-  padding: 4px;
-  display: flex;
+.tin{
+  font-size: 10px;
 }
 .tin img {
   width: 8vw;
@@ -47,5 +44,44 @@ h3 {
   border-radius: 5px;
 }
 #foot {
+  font-size: 12px;
   padding: 6px;
 }
+@media only screen and (max-width: 530px){
+  .tainer{
+    width: 530px;
+    background: #000;
+  }
+  .tin img {
+    width: 70px;
+    object-fit: contain;
+}
+.tin{
+  font-size: 8px;
+}
+h3 {
+  font-size: 12px;
+  margin: 5px;
+}
+.con ul li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  margin: 0 0 7px -30px;
+}
+.con ul li {
+  font-size: 0.6rem;
+}
+.con ul li img {
+  width: 6vw;
+  margin-left:-15px ;
+
+}
+#foot {
+  font-size: 10px;
+  
+}
+}
+  
+
+

@@ -1,9 +1,10 @@
 import React from "react";
 import "./Footer.css";
 import logo from '../componants/logo/Logo2.png'
-import fb from '../componants/fb/Logo3.jpg'
-import twet from '../componants/twet/Logo4.jpg'
-import insta from '../componants/insta/Logo5.jpg'
+import fb from '../componants/fb/Logo3.png'
+import twet from '../componants/twet/Logo4.png'
+import insta from '../componants/insta/Logo5.png'
+import you from '../componants/you/Logo6.png'
 import app from '../componants/App/app.png'
 import play from '../componants/Play/play.png'
 
@@ -60,6 +61,9 @@ function Footer() {
               <li className="">
                 <img src={twet} alt="tweeter" />
               </li>
+              <li className="">
+                <img src={you} alt="Youtube" />
+              </li>
             </ul>
           </div>
           <div className="con">
@@ -94,11 +98,9 @@ function Footer() {
             </ul>
           </div>
           <div className="tin">
-            <img src={logo} alt="logo" />
-            <pre>
-              At ANSFLIX, we offer exclusive and premium stories.
-            </pre>
-            <pre>Everything you want to watch, anytime, anywhere and as much.</pre>
+            <img src={logo} alt="logo" /><br/>
+              At ANSFLIX, we offer exclusive and premium stories.<br/>
+            Everything you want to watch, anytime, anywhere and as much.
             <h5 id='foot'>&copy; 2021 www.ANSFLIX.com : All rights Reserved </h5> 
             <img id="img" src={app} alt="app" />
             <img id="img" src={play} alt="play" />

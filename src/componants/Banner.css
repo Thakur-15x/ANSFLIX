@@ -1,7 +1,7 @@
 .banner{
     color: white;
     object-fit: contain;
-    height: 500px;
+    height: 499px;
 
 }
 .banner_contant{
@@ -50,3 +50,13 @@
     height: 5.6rem;
     background-image: linear-gradient(0deg, transparent, rgba(37, 37, 37, 0.61), #111);
 } */
+
+@media only screen and (max-width: 530px) {
+    header{
+        width: 530px;
+    }
+    .banner_contant{
+        margin-left: 8px;
+    }
+    
+}
