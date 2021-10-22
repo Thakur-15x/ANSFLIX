@@ -1,6 +1,6 @@
 # ANSFLIX-web-app
 
-- **An OTT App with TMDB movies and series. User can able to view the overview, category and Trailer of the movies and series*
+- **An OTT App with TMDB movies and series. User can able to view Trailer of the movies and series*
 
 ---
 
@@ -13,10 +13,6 @@
 - Collection of Movies and Series
 
 ![image](https://user-images.githubusercontent.com/37274588/123247535-a0d79300-d504-11eb-8288-23a016c0780a.png)
-
-- Feature Component (Overview,Vote Average, Rating, Category)
-
-![image](https://user-images.githubusercontent.com/37274588/123247869-ec8a3c80-d504-11eb-8370-dc9bf2dd6b4c.png)
 
 - Trailer Component
 
