@@ -8,15 +8,15 @@
 
 - Landing Page
 
-![image](https://user-images.githubusercontent.com/37274588/123247418-843b5b00-d504-11eb-8a54-13bade3f181f.png)
+![image]()
 
 - Collection of Movies and Series
 
-![image](https://user-images.githubusercontent.com/37274588/123247535-a0d79300-d504-11eb-8288-23a016c0780a.png)
+![image]()
 
 - Trailer Component
 
-![image](https://user-images.githubusercontent.com/37274588/123248009-0f1c5580-d505-11eb-8761-8f4b3e210495.png)
+![image]()
 
 
 ---
