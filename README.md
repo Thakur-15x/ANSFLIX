@@ -1,36 +1,6 @@
-# Netflix Clone
+# ANSFLIX-web-app
 
-- **A Netflix Clone App with TMDB movies and series. User can able to view the overview, rating, vote average and category and Trailer of the movies and series*
-
----
-
-## Quick Links
-
-[Demo](#demo)
-
-- [Live Site Demo](#live-site-demo)
-- [Project Screenshots](#project-screenshots)
-
-[Tech Stack](#tech-stack)
-
-[Implementation Hightlights](#Implementation-Highlights)
-
-- [User Stories](#user-stories)
-
-[Getting Started](#getting-started)
-
-- [Prerequisites](#prerequisites)
-
-  - [Tools & Versions](#tools-&-versions)
-
-- [Runing Project](#running-project)
-
-- [Building Application](#building-application)
-
-[Deployment](#deployment)
-
-[Author](#author)
-
+- **An OTT App with TMDB movies and series. User can able to view the overview, category and Trailer of the movies and series*
 
 ---
 
