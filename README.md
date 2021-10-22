@@ -1,69 +1,110 @@
-# Getting Started with Create React App
- [Create React App](https://github.com/facebook/create-react-app).
+# Netflix Clone
 
-## Available Scripts
+- **A Netflix Clone App with TMDB movies and series. User can able to view the overview, rating, vote average and category and Trailer of the movies and series*
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Quick Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Demo](#demo)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Live Site Demo](#live-site-demo)
+- [Project Screenshots](#project-screenshots)
 
-### `npm test`
+[Tech Stack](#tech-stack)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Implementation Hightlights](#Implementation-Highlights)
 
-### `npm run build`
+- [User Stories](#user-stories)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Getting Started](#getting-started)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Prerequisites](#prerequisites)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - [Tools & Versions](#tools-&-versions)
 
-### `npm run eject`
+- [Runing Project](#running-project)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Building Application](#building-application)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Deployment](#deployment)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[Author](#author)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Project Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Landing Page
 
-### Code Splitting
+![image](https://user-images.githubusercontent.com/37274588/123247418-843b5b00-d504-11eb-8a54-13bade3f181f.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Collection of Movies and Series
 
-### Analyzing the Bundle Size
+![image](https://user-images.githubusercontent.com/37274588/123247535-a0d79300-d504-11eb-8288-23a016c0780a.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Feature Component (Overview,Vote Average, Rating, Category)
 
-### Making a Progressive Web App
+![image](https://user-images.githubusercontent.com/37274588/123247869-ec8a3c80-d504-11eb-8370-dc9bf2dd6b4c.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Trailer Component
 
-### Advanced Configuration
+![image](https://user-images.githubusercontent.com/37274588/123248009-0f1c5580-d505-11eb-8761-8f4b3e210495.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Tech Stack
 
-### `npm run build` fails to minify
+- [React](https://github.com/facebook/react) 
+- [Axios](https://github.com/axios/axios)
+  - Promise based HTTP client for the browser.
+- [react-youtube](https://github.com/tjallingt/react-youtube)
+  - Simple React component acting as a thin layer over the YouTube IFrame Player API  
+- [movie-trailer](https://github.com/lacymorrow/movie-trailer)
+  - Fetch Youtube trailers for any movie
+  - Return one or many trailer URLs
+  - Async/await, Promise and Callback APIs
+- [tmdb](https://developers.themoviedb.org/3 )
+  - A list of Movies and Series Database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+### Running Project
+
+- install dependencies
+
+```terminal
+npm install
+```
+- start the project
+
+```terminal
+npm start
+```
+Application will be serving on http://localhost:3000
+
+
+### Building Application
+
+- Build
+
+```terminal
+npm run build
+```
+Application will be built on build folder
+---
+
+
+## Author
+
+- Abhishek Tomar
+
+---
+
+## License
+
+- MIT License
+
+---
