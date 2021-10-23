@@ -14,20 +14,21 @@
   text-decoration: none;
   color: white;
   display: flex;
-  margin: 0 0 7px -15px;
+  margin: 0 0 7px -22px;
 }
 .con ul li {
   list-style: none;
   font-size: 0.8rem;
 }
 .con ul li img {
+  margin-left: -6px;
   object-fit: contain;
   width: 2vw;
   margin-top: 2.5px;
 }
 h3 {
   font-size: 1rem;
-  margin: 15px;
+  margin: 0px 0px 10px 10px
 }
 .tin{
   font-size: 10px;
@@ -76,6 +77,13 @@ h3 {
   width: 6vw;
   margin-left:-15px ;
 
+}
+.con p{
+ margin-left: 0px;
+
+}
+ .list{
+   align-items: center;
 }
 #foot {
   font-size: 10px;

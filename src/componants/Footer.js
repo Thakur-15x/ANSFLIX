@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import axios from "../axios";
+import requests from "../requests";
 import "./Footer.css";
 import logo from '../componants/logo/Logo2.png'
 import fb from '../componants/fb/Logo3.png'
@@ -9,6 +11,17 @@ import app from '../componants/App/app.png'
 import play from '../componants/Play/play.png'
 
 function Footer() {
+    const [title, setTitle] = useState([]);
+
+    useEffect(() => {
+      async function fetchData() {
+        const request = await axios.get(requests.fetchTreanding);
+        setTitle(request.data.results);
+        return request;
+      }
+      fetchData();
+    }, []);
+
   return (
     <div className="tainer">
         <hr />
@@ -68,34 +81,10 @@ function Footer() {
           </div>
           <div className="con">
             <h3 className="">TREANDING ON ANSFLIX</h3>
-            <ul className="">
-            <li className="">
-                <a href="/" className="">
-                  Venom : Let There Be Carnage
-                </a>
-              </li>
-              <li className="">
-                <a href="/" className="">
-                  Snake Eyes
-                </a>
-              </li>
-              
-              <li className="">
-                <a href="/" className="">
-                  F9
-                </a>
-              </li>
-              <li className="">
-                <a href="/" className="">
-                  Dune
-                </a>
-              </li>
-              <li className="">
-                <a href="/" className="">
-                  Free Guy
-                </a>
-              </li>
-            </ul>
+            {title.map((title) => (
+          <p key={title.id} style={{marginLeft:'18px', paddingBottom:'2px', fontFamily:'monospace'}}>{title.title}</p>
+
+      ))}
           </div>
           <div className="tin">
             <img src={logo} alt="logo" /><br/>
