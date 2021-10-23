@@ -31,10 +31,10 @@ h3 {
   margin: 0px 0px 10px 10px
 }
 .tin{
-  font-size: 10px;
+  font-size: 12px;
 }
 .tin img {
-  width: 8vw;
+  width: 10vw;
   object-fit: contain;
 }
 #img {
@@ -45,8 +45,8 @@ h3 {
   border-radius: 5px;
 }
 #foot {
-  font-size: 12px;
-  padding: 6px;
+  font-size: 14px;
+  padding: 12px 0px 15px 0px;
 }
 @media only screen and (max-width: 530px){
   .tainer{
@@ -76,10 +76,6 @@ h3 {
 .con ul li img {
   width: 6vw;
   margin-left:-15px ;
-
-}
-.con p{
- margin-left: 0px;
 
 }
  .list{

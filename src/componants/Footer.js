@@ -24,7 +24,7 @@ function Footer() {
 
   return (
     <div className="tainer">
-        <hr />
+        <div style={{borderTop:'1px solid gray', paddingBottom:'5px'}}></div>
       <footer>
         <div className="container">
           <div className="con">
