@@ -1,6 +1,6 @@
 # ANSFLIX-web-app
 
-- **An OTT App with TMDB movies and series. User can able to view Trailer of the movies and series*
+- ## An OTT App with TMDB movies and series. User can able to view Trailer of the movies and series.
 
 ---
 
