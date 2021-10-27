@@ -9,6 +9,7 @@ const baseURL = "https://www.themoviedb.org/t/p/original/";
 function Movies_Row({ title, fetchUrl }) {
   const [movies, setMovies] = useState([]);
   const [trailerUrl, setTrailerUrl] = useState("");
+  
 
   useEffect(() => {
     async function fetchData() {

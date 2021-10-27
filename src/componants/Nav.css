@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 .navbar{
     position: fixed;
     padding: 10px;
@@ -44,6 +45,88 @@
     transition: all 0.52s;
 
 
+}
+.forme{
+    display: none;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    text-align: center;
+    width: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+.forme .close-btn{
+    color: #fff;
+    width: 20px;
+    margin-top: -10px;
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+}
+.close-btn:hover{
+    color: red;
+}
+.forme h2{
+    text-align: center;
+    color: rgb(196, 127, 236);
+    text-transform: uppercase;
+}
+form{
+    margin: 20px;
+}
+label{
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-top: 10px;
+}
+input{
+    display: block;
+    width: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(118, 230, 211);
+    padding: 10px;
+    color: white;
+}
+.forme button{
+    display: block;
+    width: 95%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #c2e2dd, 
+    #095a6e);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+
+}
+.forme button:hover{
+    background: linear-gradient(to right, #bacee0, 
+    #023e46);
+
+}
+.forme a{
+    text-decoration: none;
+    color: #eca859;
+
+}
+
+.link{
+    margin-top: 30px;
+    text-align: center;
+    color:white;
+}
+
+.forme a:hover{
+    text-decoration: underline;
 }
 @media only screen and (max-width: 530px){
     .navbar img{

@@ -5,7 +5,9 @@ import Footer from './componants/Footer';
 import MoviesRow from './componants/Movies_Row';
 import Navbar from './componants/Navbar';
 import requests from './requests';
-function App() {
+
+function App(props) {
+  // const [Loading, setLoading] = useState(true)
   return (
     <div className="App">
       <Navbar/>

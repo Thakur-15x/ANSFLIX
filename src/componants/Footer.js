@@ -17,6 +17,7 @@ function Footer() {
       async function fetchData() {
         const request = await axios.get(requests.fetchTreanding);
         setTitle(request.data.results);
+        console.log(request.data.results)
         return request;
       }
       fetchData();

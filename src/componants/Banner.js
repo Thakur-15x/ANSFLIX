@@ -13,8 +13,10 @@ function Banner() {
         request.data.results[
           Math.floor(Math.random() * request.data.results.length - 1)
         ]
-      );
+      )
+      
       return request;
+      
     }
     fetchData();
   }, []);

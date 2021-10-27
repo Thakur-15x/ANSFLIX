@@ -4,6 +4,7 @@ import "./Nav.css";
 
 function Navbar() {
   const [show, handleShow] = useState(false);
+  // const [display, setdisplay] = useState('none')
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -15,12 +16,36 @@ function Navbar() {
       window.removeEventListener("scroll");
     };
   }, []);
+  const openForm = () => {
+    document.getElementById("forme").style.display = "block";
+  }
+  
+  const closeForm = () => {
+    document.getElementById("forme").style.display = "none";
+  }
+
 
   return (
     <div className={`navbar ${show && "navblack"}`}>
       <img src={logo} alt="" srcSet="" />
-      <button className="gener">Sign In</button>
-    </div>
+      <button className="gener" onClick={openForm}>LOGIN</button>
+      <div id="forme" className="forme">
+      <label htmlFor="show" className="close-btn" title="close" onClick={closeForm}>×</label>
+        <h2>WELCOME</h2>
+        <form action="/">
+            <label>Email or Phone</label>
+            <input type="text"/>
+            <label>Password</label>
+            <input type="password"/>
+            <a href="/">Forgot Password?</a>
+            <button>Submit</button>
+            <div className="link">Not a member? <a href="/">Sigup here</a></div>
+            
+        </form>
+        </div>
+
+     
+</div>
   );
 }
 
