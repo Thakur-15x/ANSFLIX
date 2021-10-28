@@ -17,11 +17,11 @@ function Navbar() {
     };
   }, []);
   const openForm = () => {
-    document.getElementById("forme").style.display = "block";
+    document.getElementById("fom").style.display = "block";
   }
   
   const closeForm = () => {
-    document.getElementById("forme").style.display = "none";
+    document.getElementById("fom").style.display = "none";
   }
 
 
@@ -29,7 +29,7 @@ function Navbar() {
     <div className={`navbar ${show && "navblack"}`}>
       <img src={logo} alt="" srcSet="" />
       <button className="gener" onClick={openForm}>LOGIN</button>
-      <div id="forme" className="forme">
+      <div id="fom" className="forme">
       <label htmlFor="show" className="close-btn" title="close" onClick={closeForm}>×</label>
         <h2>WELCOME</h2>
         <form action="/">
