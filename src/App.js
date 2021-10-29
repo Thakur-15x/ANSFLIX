@@ -7,7 +7,7 @@ import Navbar from './componants/Navbar';
 import requests from './requests';
 
 function App(props) {
-  // const [Loading, setLoading] = useState(true)
+
   return (
     <div className="App">
       <Navbar/>
@@ -22,7 +22,6 @@ function App(props) {
       {/* <Movies_Row title="Documentaries Movies" fetchUrl={requests.fetchDocumentaries}/> */}
       {/* <Movies_Row title="Web-Show" fetchUrl={requests.fetchWeb}/> */}
       <Footer/>
-      
     </div>
       
   );

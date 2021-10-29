@@ -11,21 +11,71 @@ import app from '../componants/App/app.png'
 import play from '../componants/Play/play.png'
 
 function Footer() {
-    const [title, setTitle] = useState([]);
-
-    useEffect(() => {
-      async function fetchData() {
-        const request = await axios.get(requests.fetchTreanding);
-        setTitle(request.data.results);
-        console.log(request.data.results)
-        return request;
-      }
-      fetchData();
-    }, []);
+  const [movie, setTitle] = useState([]);
+  const [movi, setTitl] = useState([]);
+  const [move, setTital] = useState([]);
+  const [mov, setTitil] = useState([]);
+  const [moi, setTitel] = useState([]);
+  useEffect(() => {
+    async function fetchData() {
+      const request = await axios.get(requests.fetchTreanding);
+      setTitle(request.data.results[
+        Math.floor(Math.random() * request.data.results.length - 1)
+      ]
+    
+      )
+      return request;
+    }
+    fetchData();
+  }, []);
+  useEffect(() => {
+    async function fetchData() {
+      const request = await axios.get(requests.fetchTreanding);
+      setTitl(request.data.results[
+        Math.floor(Math.random() * request.data.results.length )
+      ]
+      )
+      return request;
+    }
+    fetchData();
+  }, []);
+  useEffect(() => {
+    async function fetchData() {
+      const request = await axios.get(requests.fetchTreanding);
+      setTital(request.data.results[
+        Math.floor(Math.random() * request.data.results.length - 2)
+      ]
+      )
+      return request;
+    }
+    fetchData();
+  }, []);
+  useEffect(() => {
+    async function fetchData() {
+      const request = await axios.get(requests.fetchTreanding);
+      setTitil(request.data.results[
+        Math.floor(Math.random() * request.data.results.length + 3)
+      ]
+      )
+      return request;
+    }
+    fetchData();
+  }, []);
+  useEffect(() => {
+    async function fetchData() {
+      const request = await axios.get(requests.fetchTreanding);
+      setTitel(request.data.results[
+        Math.floor(Math.random() * request.data.results.length + 1)
+      ]
+      )
+      return request;
+    }
+    fetchData();
+  }, []);
 
   return (
     <div className="tainer">
-        <div style={{borderTop:'1px solid gray', paddingBottom:'5px'}}></div>
+      <div style={{ borderTop: '1px solid gray', paddingBottom: '5px' }}></div>
       <footer>
         <div className="container">
           <div className="con">
@@ -82,16 +132,39 @@ function Footer() {
           </div>
           <div className="con">
             <h3 className="">TREANDING ON ANSFLIX</h3>
-            {title.map((title) => (
-          <p key={title.id} style={{marginLeft:'18px', paddingBottom:'2px', fontFamily:'monospace'}}>{title.title}</p>
-
-      ))}
+            <ul className="">
+              <li className="">
+                <a href="/" className="">
+                {movie?.title || movie?.name || movie?.original_name}
+                </a>
+              </li>
+              <li className="">
+                <a href="/" className="">
+                {movi?.title || movi?.name || movi?.original_name}
+                </a>
+              </li>
+              <li className="">
+                <a href="/" className="">
+                {move?.title || move?.name || move?.original_name}
+                </a>
+              </li>
+              <li className="">
+                <a href="/" className="">
+                {mov?.title || mov?.name || mov?.original_name}
+                </a>
+              </li>
+              <li className="">
+                <a href="/" className="">
+                {moi?.title || moi?.name || moi?.original_name}
+                </a>
+              </li>
+            </ul>
           </div>
           <div className="tin">
-            <img src={logo} alt="logo" /><br/>
-              At ANSFLIX, we offer exclusive and premium stories.<br/>
+            <img src={logo} alt="logo" /><br />
+            At ANSFLIX, we offer exclusive and premium stories.<br />
             Everything you want to watch, anytime, anywhere and as much.
-            <h5 id='foot'>&copy; 2021 www.ANSFLIX.com : All rights Reserved </h5> 
+            <h5 id='foot'>&copy; 2021 www.ANSFLIX.com : All rights Reserved </h5>
             <img id="img" src={app} alt="app" />
             <img id="img" src={play} alt="play" />
           </div>
