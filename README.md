@@ -22,6 +22,11 @@
 
 <img width="1440" alt="Screenshot 2021-10-28 at 3 51 05 PM" src="https://user-images.githubusercontent.com/61470005/139237841-d77a4f53-4188-45cf-800f-878b50984ed3.png">
 
+- Trailer Popup
+
+
+ <img width="1440" alt="Screenshot 2021-10-29 at 12 45 11 PM" src="https://user-images.githubusercontent.com/61470005/139393905-0da3f0ef-bdcf-4de1-900c-c17ab7b4aa5a.png">
+
 ---
 
 ## Tech Stack
