@@ -27,7 +27,7 @@ function App(props) {
       <MoviesRow title="Comedy Movies" fetchUrl={requests.fetchComedy}/>
       <MoviesRow title="Horrar Movies" fetchUrl={requests.fetchHorrar}/>
       <MoviesRow title="Romance Movies" fetchUrl={requests.fetchRomance}/>
-      <MoviesRow title="Documentaries Movies" fetchUrl={requests.fetchDocumentaries}/>
+      <MoviesRow title="Documentary Movies" fetchUrl={requests.fetchDocumentaries}/>
       <Footer/>
     </div> : <Spinner/>}
     </>
