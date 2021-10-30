@@ -8,10 +8,8 @@ const requests = {
     fetchComedy: `/discover/movie/?api_key=${API_KEY}&with_genres=35`,
     fetchHorrar: `/discover/movie/?api_key=${API_KEY}&with_genres=27`,
     fetchRomance: `/discover/movie/?api_key=${API_KEY}&with_genres=10749`,
-    fetchDocumentaries: `/discover/movie/?api_key=${API_KEY}&with_genres=99`,
-    // fetchAdult: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
+    fetchDocumentaries: `/discover/movie/?api_key=${API_KEY}&with_genres=99&page=3`,
     fetchPopular: `/movie/popular?api_key=${API_KEY}&language=en-US&page=3`,
-    // fetchWeb: `/tv/latest?api_key=${API_KEY}&language=en-US`
 
 }
 

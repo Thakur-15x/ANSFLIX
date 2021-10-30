@@ -1,14 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import Banner from './componants/Banner';
 import Footer from './componants/Footer';
 import MoviesRow from './componants/Movies_Row';
 import Navbar from './componants/Navbar';
+import Spinner from './componants/Spinner';
 import requests from './requests';
 
 function App(props) {
+  const [loading, setloading] = useState(false)
+  setTimeout(() => {
+    setloading(true);
+    
+  },5000);
 
   return (
+    <>
+    {loading ?
     <div className="App">
       <Navbar/>
       <Banner/>
@@ -19,12 +27,16 @@ function App(props) {
       <MoviesRow title="Comedy Movies" fetchUrl={requests.fetchComedy}/>
       <MoviesRow title="Horrar Movies" fetchUrl={requests.fetchHorrar}/>
       <MoviesRow title="Romance Movies" fetchUrl={requests.fetchRomance}/>
-      {/* <Movies_Row title="Documentaries Movies" fetchUrl={requests.fetchDocumentaries}/> */}
-      {/* <Movies_Row title="Web-Show" fetchUrl={requests.fetchWeb}/> */}
+      <MoviesRow title="Documentaries Movies" fetchUrl={requests.fetchDocumentaries}/>
       <Footer/>
-    </div>
+    </div> : <Spinner/>}
+    </>
+   
+    
+   
       
   );
-}
+  
+ }
 
 export default App;

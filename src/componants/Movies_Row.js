@@ -9,12 +9,13 @@ const baseURL = "https://www.themoviedb.org/t/p/original/";
 function Movies_Row({ title, fetchUrl }) {
   const [movies, setMovies] = useState([]);
   const [trailerUrl, setTrailerUrl] = useState("");
-  
+  const [loading, setloading] = useState(false);
 
   useEffect(() => {
     async function fetchData() {
       const request = await axios.get(fetchUrl);
       setMovies(request.data.results);
+      setloading(true);
     //   console.log(request.data.results);
       return request;
     }
@@ -43,6 +44,8 @@ function Movies_Row({ title, fetchUrl }) {
   };
 
   return (
+    <>
+    {loading ?
     <div className="row">
       <h2>{title}</h2>
       <div className="posters">
@@ -57,7 +60,9 @@ function Movies_Row({ title, fetchUrl }) {
         ))}
       </div>
       {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} />}
-    </div>
+    </div>  
+    : <h1 style={{display:'none'}}>loading</h1>}
+    </>
   );
 }
 

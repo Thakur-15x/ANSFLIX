@@ -23,7 +23,7 @@
 .con ul li img {
   margin-left: -6px;
   object-fit: contain;
-  width: 2vw;
+  width: 20px;
   margin-top: 2.5px;
 }
 h3 {
@@ -31,10 +31,10 @@ h3 {
   margin: 0px 0px 10px 10px
 }
 .tin{
-  font-size: 12px;
+  font-size: 0.8rem;
 }
 .tin img {
-  width: 10vw;
+  width: 90px;
   object-fit: contain;
 }
 #img {
@@ -54,7 +54,7 @@ h3 {
     background: #000;
   }
   .tin img {
-    width: 70px;
+    width: 75px;
     object-fit: contain;
 }
 .tin{
@@ -74,7 +74,7 @@ h3 {
   font-size: 0.6rem;
 }
 .con ul li img {
-  width: 6vw;
+  width: 20px;
   margin-left:-15px ;
 
 }

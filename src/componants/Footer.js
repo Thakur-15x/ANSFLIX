@@ -12,62 +12,13 @@ import play from '../componants/Play/play.png'
 
 function Footer() {
   const [movie, setTitle] = useState([]);
-  const [movi, setTitl] = useState([]);
-  const [move, setTital] = useState([]);
-  const [mov, setTitil] = useState([]);
-  const [moi, setTitel] = useState([]);
+  
   useEffect(() => {
     async function fetchData() {
       const request = await axios.get(requests.fetchTreanding);
-      setTitle(request.data.results[
-        Math.floor(Math.random() * request.data.results.length - 1)
-      ]
+      setTitle((request.data.results).slice(0,7)
     
-      )
-      return request;
-    }
-    fetchData();
-  }, []);
-  useEffect(() => {
-    async function fetchData() {
-      const request = await axios.get(requests.fetchTreanding);
-      setTitl(request.data.results[
-        Math.floor(Math.random() * request.data.results.length )
-      ]
-      )
-      return request;
-    }
-    fetchData();
-  }, []);
-  useEffect(() => {
-    async function fetchData() {
-      const request = await axios.get(requests.fetchTreanding);
-      setTital(request.data.results[
-        Math.floor(Math.random() * request.data.results.length - 2)
-      ]
-      )
-      return request;
-    }
-    fetchData();
-  }, []);
-  useEffect(() => {
-    async function fetchData() {
-      const request = await axios.get(requests.fetchTreanding);
-      setTitil(request.data.results[
-        Math.floor(Math.random() * request.data.results.length + 3)
-      ]
-      )
-      return request;
-    }
-    fetchData();
-  }, []);
-  useEffect(() => {
-    async function fetchData() {
-      const request = await axios.get(requests.fetchTreanding);
-      setTitel(request.data.results[
-        Math.floor(Math.random() * request.data.results.length + 1)
-      ]
-      )
+      );
       return request;
     }
     fetchData();
@@ -134,30 +85,12 @@ function Footer() {
             <h3 className="">TREANDING ON ANSFLIX</h3>
             <ul className="">
               <li className="">
-                <a href="/" className="">
-                {movie?.title || movie?.name || movie?.original_name}
+              {movie.map((movies) => (
+                <a href="/" className="" key={movies.id}>
+                {movies?.title || movies?.name || movies?.original_name}
                 </a>
-              </li>
-              <li className="">
-                <a href="/" className="">
-                {movi?.title || movi?.name || movi?.original_name}
-                </a>
-              </li>
-              <li className="">
-                <a href="/" className="">
-                {move?.title || move?.name || move?.original_name}
-                </a>
-              </li>
-              <li className="">
-                <a href="/" className="">
-                {mov?.title || mov?.name || mov?.original_name}
-                </a>
-              </li>
-              <li className="">
-                <a href="/" className="">
-                {moi?.title || moi?.name || moi?.original_name}
-                </a>
-              </li>
+                 ))}
+                </li>
             </ul>
           </div>
           <div className="tin">
