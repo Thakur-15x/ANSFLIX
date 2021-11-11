@@ -1,0 +1,13 @@
+
+.post{
+    object-fit: contain;
+    width: 200px;
+    margin: 20px 6px 10px 30px;  
+}
+#title{
+    color: rgb(209, 91, 209);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 15px;
+}

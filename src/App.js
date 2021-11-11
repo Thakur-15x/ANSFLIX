@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
 import Banner from './componants/Banner';
+import Treanding from './componants/Treanding';
 import Footer from './componants/Footer';
 import MoviesRow from './componants/Movies_Row';
 import Navbar from './componants/Navbar';
@@ -27,7 +28,7 @@ function App(props) {
       <MoviesRow title="Comedy Movies" fetchUrl={requests.fetchComedy}/>
       <MoviesRow title="Horrar Movies" fetchUrl={requests.fetchHorrar}/>
       <MoviesRow title="Romance Movies" fetchUrl={requests.fetchRomance}/>
-      <MoviesRow title="Documentary Movies" fetchUrl={requests.fetchDocumentaries}/>
+      {/* <MoviesRow title="Documentary Movies" fetchUrl={requests.fetchDocumentaries}/> */}
       <Footer/>
     </div> : <Spinner/>}
     </>
