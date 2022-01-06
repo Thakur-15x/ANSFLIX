@@ -4,7 +4,6 @@ import "./Nav.css";
 
 function Navbar() {
   const [show, handleShow] = useState(false);
-  // const [display, setdisplay] = useState('none')
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
