@@ -11,8 +11,8 @@
 <img width="1440" alt="Screenshot 2021-10-23 at 2 39 38 PM" src="https://user-images.githubusercontent.com/61470005/138644948-042c3bbb-a327-4148-bfa8-2d5bb676b2d2.png">
 
 - Mobile View
- <div>
-<img width="300" style="margin:30px" alt="Screenshot 2021-10-23 at 2 39 38 PM" src="https://user-images.githubusercontent.com/61470005/150628635-32428507-e0a8-4c10-bf96-79628cdadcbb.jpg"> <img width="300" alt="Screenshot 2021-10-23 at 2 39 38 PM" src="https://user-images.githubusercontent.com/61470005/150628844-12816da4-f981-45e2-8e3e-2d8ba8564988.jpg"></div>
+ <div style="display:flex, justifycontent:space-between">
+<img width="300" alt="Screenshot 2021-10-23 at 2 39 38 PM" src="https://user-images.githubusercontent.com/61470005/150628635-32428507-e0a8-4c10-bf96-79628cdadcbb.jpg"> <img width="300" alt="Screenshot 2021-10-23 at 2 39 38 PM" src="https://user-images.githubusercontent.com/61470005/150628844-12816da4-f981-45e2-8e3e-2d8ba8564988.jpg"></div>
 
 - Collection of Movies and Series
 
