@@ -10,6 +10,10 @@
 
 <img width="1440" alt="Screenshot 2021-10-23 at 2 39 38 PM" src="https://user-images.githubusercontent.com/61470005/138644948-042c3bbb-a327-4148-bfa8-2d5bb676b2d2.png">
 
+- Mobile View
+<img width="1440" alt="Screenshot 2021-10-23 at 2 39 38 PM" src="https://user-images.githubusercontent.com/61470005/150628635-32428507-e0a8-4c10-bf96-79628cdadcbb.jpg">
+![Screenshot_20220122-122600_Chrome](https://user-images.githubusercontent.com/61470005/150628635-32428507-e0a8-4c10-bf96-79628cdadcbb.jpg)
+
 - Collection of Movies and Series
 
 <img width="1440" alt="Screenshot 2021-10-23 at 2 40 33 PM" src="https://user-images.githubusercontent.com/61470005/138648157-642f2c60-cddf-4fa1-9e0a-b2641f1de66d.png">
