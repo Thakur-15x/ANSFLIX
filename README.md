@@ -11,7 +11,7 @@
 <img width="1440" alt="Screenshot 2021-10-23 at 2 39 38 PM" src="https://user-images.githubusercontent.com/61470005/138644948-042c3bbb-a327-4148-bfa8-2d5bb676b2d2.png">
 
 - Mobile View
-<img width="500" alt="Screenshot 2021-10-23 at 2 39 38 PM" src="https://user-images.githubusercontent.com/61470005/150628635-32428507-e0a8-4c10-bf96-79628cdadcbb.jpg">
+<img width="200" alt="Screenshot 2021-10-23 at 2 39 38 PM" src="https://user-images.githubusercontent.com/61470005/150628635-32428507-e0a8-4c10-bf96-79628cdadcbb.jpg">
 
 - Collection of Movies and Series
 
